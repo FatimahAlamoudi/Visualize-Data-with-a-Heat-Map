@@ -1,0 +1,41 @@
+html{
+    min-height: 100%;
+}
+
+body {
+    background-color: #E0E3F0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    color: #163D57
+}
+
+g{
+    color: #E0E3F0
+}
+
+svg{
+    background-color: whitesmoke;
+}
+
+#canvas{
+    background-color: #000000;
+    min-height: 600px;
+    min-width: 1200px;
+}
+
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+}
+
+#legend{
+    color: rgb(56, 58, 74);
+    font-size: 18px;
+    text-align: center;
+    min-height: 150px;
+    background-color: #000000;
+}
